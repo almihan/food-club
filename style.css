@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  max-width: 100%;
+  height: 400px;
+}
+
+.header img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.header ul {
+  position: absolute;
+  top: 5%;
+  right: 2%;
+}
+
+.header h1 {
+  position: absolute;
+  left: 5%;
+  top: 5%;
+  color: rgba(255, 99, 71, 0.7);
+  font-family: 'Bonbon', cursive;
+  font-size: 3.5rem;
+}
+
+.header li {
+  display: inline;
+  padding: 1.4em;
+  font-size: 1.4rem;
+}
+a {
+  color: gold;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+
+.main {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.main h1 {
+  display: inline;
+  border-bottom: 1px solid gray;
+  color: #708090;
+}
+
+.popular-food {
+  box-sizing: border-box;
+  text-align: left;
+  display: inline-block;
+  max-width: 500px;
+  max-height: 300px;
+  position: relative;
+  z-index: 2;
+  margin-bottom: 5%;
+}
+.popular-food img {
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+  position: relative;
+  z-index: 3;
+}
+
+.popular-food .up {
+  background-color: rgba(106, 90, 205, 0.5);
+  position: absolute;
+  top: 24px;
+  height: 15%;
+  width: 100%;
+  z-index: 10;
+  color: F0F8FF;
+  font-size: 1.7em;
+}
+.bottom {
+  background-color: rgba(106, 90, 205, 0.5);
+  position: absolute;
+  bottom: -6px;
+  height: 20%;
+  width: 100%;
+  z-index: 10;
+}
+
+.img-gallary {
+  text-align: center;
+  margin-top: 3%;
+}
+
+.food-recipe {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  width: 30%;
+  height: 250px;
+  text-align: left;
+  font-size: 1.3em;
+  color: FF1493;
+}
+.food-recipe img {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  padding: 2%;
+  background-color: #708090;
+  margin-top: 5%;
+}
+.fa {
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+@media only screen and (max-width: 810px) {
+  .header li,
+  .food-recipe {
+    display: block;
+  }
+  .food-recipe {
+    margin: 10px auto;
+    width: 300px;
+  }
+}
